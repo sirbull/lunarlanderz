@@ -1,0 +1,73 @@
+{
+    "transparency16": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "tile3": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile1"
+    },
+    "tile1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile"
+    },
+    "tile2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile0"
+    },
+    "level1": {
+        "id": "level1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAyMDAwMTAwMDE2MTQxNDE0MTQxNTAwMDAwMDAwMDAwMTAxMDExNTAwMDAwMDAwMDAwMDAwMDEwMTAxMDExZjFmMWYxZjAxMDExZjE4MDIwMjFiMDEwMTE1MDAwMDAxMTgwMjAyMWIwMTAxMTUwMDAwMDAwMDAxMTgwMjAyMDIwMjAyMDIxYjAxMTUxOTAwMDAwMDEyMWIxNDE0MTQxNDE5MDAwMDAwMTIxYjFmMDAwMDAwMDAxZjE5MDAyMTAwMDAwMDIwMWMwMTE0MTkyMDFlMDAwMDFjMDExNDE0MTgwMDIxMDAwMDAwMWMxZjAwMDAwMDAxMDExOTAwMDAwMDAwMDAwMDFjMDExZjE5MDAwMDAwMDAxYzAxMTQxNTE5MDAwMDAwMDAwMDFjMWYxNTAwMDEwMTE4MDAwMDAwMjIwMDAwMDAxYzFmMWYxOTAwMDAwMDAwMDAxMjAyMDIwMDAwMDAwMzAwMDAwMDFiMDEwMDAxMTgwMDAwMDAxYzE1MTkwMDAwMWMwMTE1MTkwMDAwMDAwMDAwMDAwMDAwMjAwMDA3MDgyMjIyMDAxYzAxMDAwMTE5MDAwMDAwMWMxNTE5MDAwMDFjMDExNDE5MDAwMDIxMDAwMDAwMDAwMDAwMDAwOTA5MTEwOTAwMWMwMTAxMDExOTAwMDYwYjA4MTgwMDAwMDAxYzAxMTUxOTAwMDAwMDAwMDAwMDAwMDAwMDAwMTExMTExMDkwMDAwMWIwMTE4MDAwMDEyMDIxMzAwMDAwMDAwMWMxZjE1MTkwMDAwMDAwMDAwMDAwMDAwMjEwMDBjMTExMTBlMjAwMDAwMDIwMDAwMDAwMDAwMDAwMDAwMjEwMDFjMDExNTE5MDAyMDAwMDAwNzA4MDAwMDAwMDAwMDBjMDkwNzA4MDAwMDIxMDAwMDA3MDUwNTA4MDAwMDAwMDAxYzAxMTQxOTAwMDAwMDA3MDkwOTA4MDAwMDA3MGEwNDA5MDkxMTAwMDAwMDAwMDAxNzA5MDkxNzA4MjAwMDAwMWQxZjFmMWEwMDAwMDcwOTEwMDkxMTA3MDgwOTA5MDkwZTBjMDkwNjA4MjIwNzBhMDkwZTBjMDkxNzA2MDUwNTBhMDQwNDA3MDUwYTA5MGUwZDBjMDkxMDA5MDkwOTBlMDAwMDBjMDkwOTA5MDkwOTBlMDAwMDBjMDkwOTA5MDkwOTA5MDkwOTA5MDkwZTAwMDAwMDBjMGYwZjBmMGUwMDAwMDAwMDBjMGYwZjBmMGUwMDAwMDAwMDBjMGYwZjBmMGYwZTBjMGYwZjBlMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMjIyMjIwMDAwMjIyMjIyMDAwMDAwMjIyMjIyMjIyMjAyMDAyMDIyMDAwMjAwMjAyMjAwMDAwMjAwMDAwMDIwMDIwMDAwMjAyMDAyMDAwMDIwMDAwMDAyMDAwMDAwMjAwMjAwMDAyMDIwMDAwMDAwMjAwMDIwMDIwMDAwMDAyMDAyMDAwMDIwMjIwMDAwMDAyMDAyMjIwMDAwMDAwMDIwMDIwMDAwMDAwMDAwMDAwMDAwMDIwMjAwMDAwMDAwMjAwMjAwMDAwMDAwMDAyMjIyMDAwMjAyMDAwMDAwMDAyMDAyMDAwMDAwMDAwMDAyMjAwMDIyMDIwMDAwMDAwMDIwMDIwMDAwMDAwMDAwMDIyMDAwMjAwMDAwMDAwMDAwMjAwMjAwMDAwMDAwMDAyMjIwMDAwMDAwMDAwMDAwMDAyMDAyMDAwMDIyMDAwMDIwMjAwMjAwMDAyMjIyMDAwMDIwMDIwMDIwMjIwMjIwMjIwMDAyMDAwMDAyMjAwMjAwMjAwMjAwMjIwMDIyMDIwMDAwMjIyMjIyMDIwMDIyMjIyMjIyMjIwMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.builtin.forestTiles24",
+            "sprites.builtin.forestTiles18",
+            "sprites.castle.rock1",
+            "sprites.builtin.oceanSand0",
+            "sprites.builtin.oceanSand2",
+            "sprites.builtin.oceanSand1",
+            "sprites.builtin.oceanSand5",
+            "sprites.builtin.oceanSand7",
+            "sprites.builtin.oceanSand8",
+            "sprites.builtin.oceanSand3",
+            "sprites.builtin.oceanSand6",
+            "sprites.builtin.oceanSand13",
+            "sprites.builtin.oceanSand12",
+            "sprites.builtin.oceanSand15",
+            "sprites.builtin.oceanSand14",
+            "sprites.builtin.oceanSand11",
+            "sprites.builtin.oceanSand9",
+            "sprites.builtin.forestTiles17",
+            "sprites.builtin.forestTiles19",
+            "sprites.builtin.forestTiles25",
+            "sprites.builtin.forestTiles29",
+            "sprites.builtin.forestTiles26",
+            "sprites.builtin.oceanSand10",
+            "sprites.builtin.forestTiles5",
+            "sprites.builtin.forestTiles9",
+            "sprites.builtin.forestTiles13",
+            "sprites.builtin.forestTiles7",
+            "sprites.builtin.forestTiles11",
+            "sprites.builtin.forestTiles15",
+            "sprites.builtin.forestTiles12",
+            "sprites.builtin.forestTiles28",
+            "myTiles.tile1",
+            "myTiles.tile2",
+            "sprites.builtin.oceanSand4"
+        ],
+        "displayName": "level1"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myTiles"
+    }
+}
