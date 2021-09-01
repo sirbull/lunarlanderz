@@ -268,7 +268,6 @@ game.onUpdateInterval(100, function () {
         goalTimer += 1
     } else {
         goalTimer = 0
-        story.printText("I need to rescue all of them...", 0, 0, 15)
     }
     if (LunarLander.overlapsWith(goal) && goalTimer > 5) {
         game.over(true, effects.confetti)

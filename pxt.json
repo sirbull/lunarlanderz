@@ -2,10 +2,7 @@
     "name": "LunarLanderz",
     "description": "",
     "dependencies": {
-        "device": "*",
-        "storyboard": "*",
-        "Catch the Apple v1.0": "github:sirbull/catch-the-apple-v10#master",
-        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3"
+        "device": "*"
     },
     "files": [
         "main.blocks",
