@@ -193,6 +193,8 @@ LunarLander = sprites.create(img`
     2 2 . . . . 2 2 
     `, SpriteKind.Player)
 scene.cameraFollowSprite(LunarLander)
+scene.setBackgroundColor(15)
+LunarLander.z = 3
 LunarLander.setPosition(43, 203)
 scene.setBackgroundColor(15)
 tiles.setTilemap(tilemap`level1`)
@@ -209,9 +211,9 @@ let goal = sprites.create(img`
     . c c b . . . . . . . . c b b . 
     c c c c . . . . . . . . c c c c 
     `, SpriteKind.goal)
-goal.setPosition(463, 180)
+tiles.placeOnTile(goal, tiles.getTileLocation(28, 11))
 let goalTimer = 0
-let astro_1 = img`
+let astro_1 = sprites.create(img`
     . . 1 1 1 . . . 
     . . c a 1 . . . 
     1 . 1 1 1 . . 1 
@@ -220,25 +222,70 @@ let astro_1 = img`
     . . 1 2 1 b . . 
     . . 1 1 1 b . . 
     . 1 1 . 1 1 . . 
-    `
-let astro_2 = astro_1.clone()
-let astro_1_kind = sprites.create(astro_1, SpriteKind.mission)
-let astro_2_kind = sprites.create(astro_2, SpriteKind.mission)
-astro_1_kind.setPosition(43, 25)
-astro_2_kind.setPosition(114, 66)
-tiles.setWallAt(tiles.getTileLocation(28, 12), false)
+    `, SpriteKind.mission)
+tiles.placeOnTile(astro_1, tiles.getTileLocation(3, 2))
+let astro_2 = sprites.create(img`
+    . . 1 1 1 . . . 
+    . . c a 1 . . . 
+    1 . 1 1 1 . . 1 
+    1 . . 1 . . 1 . 
+    . 1 1 1 1 1 . . 
+    . . 1 2 1 b . . 
+    . . 1 1 1 b . . 
+    . 1 1 . 1 1 . . 
+    `, SpriteKind.mission)
+tiles.placeOnTile(astro_2, tiles.getTileLocation(11, 10))
+let astro_3 = sprites.create(img`
+    . . 1 1 1 . . . 
+    . . c a 1 . . . 
+    1 . 1 1 1 . . 1 
+    1 . . 1 . . 1 . 
+    . 1 1 1 1 1 . . 
+    . . 1 2 1 b . . 
+    . . 1 1 1 b . . 
+    . 1 1 . 1 1 . . 
+    `, SpriteKind.mission)
+tiles.placeOnTile(astro_3, tiles.getTileLocation(24, 9))
+let astro_4 = sprites.create(img`
+    . . 1 1 1 . . . 
+    . . c a 1 . . . 
+    1 . 1 1 1 . . 1 
+    1 . . 1 . . 1 . 
+    . 1 1 1 1 1 . . 
+    . . 1 2 1 b . . 
+    . . 1 1 1 b . . 
+    . 1 1 . 1 1 . . 
+    `, SpriteKind.mission)
+tiles.placeOnTile(astro_4, tiles.getTileLocation(26, 3))
+info.setScore(0)
 forever(function () {
     LunarLander.setBounceOnWall(true)
     LunarLander.setFlag(SpriteFlag.ShowPhysics, false)
 })
 game.onUpdateInterval(100, function () {
-    if (LunarLander.overlapsWith(goal)) {
+    if (LunarLander.overlapsWith(goal) && info.score() == 4) {
         LunarLander.setBounceOnWall(false)
         goalTimer += 1
     } else {
         goalTimer = 0
+        story.printText("I need to rescue all of them...", 0, 0, 15)
     }
     if (LunarLander.overlapsWith(goal) && goalTimer > 5) {
         game.over(true, effects.confetti)
+    }
+    if (LunarLander.overlapsWith(astro_1)) {
+        astro_1.destroy(effects.hearts, 200)
+        info.changeScoreBy(1)
+    } else if (LunarLander.overlapsWith(astro_2)) {
+        astro_2.destroy(effects.hearts, 200)
+        info.changeScoreBy(1)
+    } else if (LunarLander.overlapsWith(astro_3)) {
+        astro_3.destroy(effects.hearts, 200)
+        info.changeScoreBy(1)
+    } else if (LunarLander.overlapsWith(astro_4)) {
+        astro_4.destroy(effects.hearts, 200)
+        info.changeScoreBy(1)
+    } else {
+    	
     }
 })
