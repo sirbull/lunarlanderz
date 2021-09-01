@@ -224,7 +224,9 @@ let astro_1 = img`
 let astro_2 = astro_1.clone()
 let astro_1_kind = sprites.create(astro_1, SpriteKind.mission)
 let astro_2_kind = sprites.create(astro_2, SpriteKind.mission)
-astro_1_kind.setPosition(43, 16)
+astro_1_kind.setPosition(43, 25)
+astro_2_kind.setPosition(114, 66)
+tiles.setWallAt(tiles.getTileLocation(28, 12), false)
 forever(function () {
     LunarLander.setBounceOnWall(true)
     LunarLander.setFlag(SpriteFlag.ShowPhysics, false)
