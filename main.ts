@@ -66,8 +66,13 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     LunarLander.ay = -40
 })
 scene.onHitWall(SpriteKind.Player, function (sprite, location) {
-    scene.cameraShake(3, 500)
-    info.changeLifeBy(-1)
+    if (LunarLander.vx > 10 || LunarLander.vx > 10) {
+        LunarLander.setBounceOnWall(true)
+        scene.cameraShake(3, 500)
+        info.changeLifeBy(-1)
+    } else {
+        LunarLander.setBounceOnWall(false)
+    }
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
@@ -196,7 +201,6 @@ scene.cameraFollowSprite(LunarLander)
 scene.setBackgroundColor(15)
 LunarLander.z = 3
 LunarLander.setPosition(43, 203)
-scene.setBackgroundColor(15)
 tiles.setTilemap(tilemap`level1`)
 let goal = sprites.create(img`
     . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
@@ -259,8 +263,7 @@ let astro_4 = sprites.create(img`
 tiles.placeOnTile(astro_4, tiles.getTileLocation(26, 3))
 info.setScore(0)
 forever(function () {
-    LunarLander.setBounceOnWall(true)
-    LunarLander.setFlag(SpriteFlag.ShowPhysics, false)
+	
 })
 game.onUpdateInterval(100, function () {
     if (LunarLander.overlapsWith(goal) && info.score() == 4) {
